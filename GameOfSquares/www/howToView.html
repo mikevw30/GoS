@@ -1,0 +1,27 @@
+<html>
+  <title>Game Of Life</title>
+  <body class="unselectable">
+    		<div id="rulesContainer" class="infoText">
+			 <h2>Rules:</h2>
+			 	<p id="rule1" class="rulesText">1. Any live cell with fewer than two live neighbours dies, as if caused by under-population.</p>
+				<p id="rule2" class="rulesText">2. Any live cell with two or three live neighbours lives on to the next generation.</p>
+				<p id="rule3" class="rulesText">3. Any live cell with more than three live neighbours dies, as if by overcrowding.</p>
+				<p id="rule4" class="rulesText">4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</p>
+			 	<a id="backToTopLink" class="rulesText"href="#top">Back to Top</A>
+			 <h2>How to's:</h2>
+			 	<h4 class="rulesText">Mouse Controls:</h4>
+			 	<p class="rulesText">Left click will give a cell life.</p>
+				<p class="rulesText">Right click will kill a cell.</p>
+				<p class="rulesText">Dragging a left click will give all touched cells life.</p>
+				<p class="rulesText">Dragging a left click will kill all touched cells.</p>
+			 	<h4 class="rulesText">Button Controls:</h4>
+				<p class="rulesText">The Start button starts the game with generation speed based on the slider.</p>
+				<p class="rulesText">The Pause button stops the game allowing you to edit the map.</p>
+				<p class="rulesText">The Populate button will pick random cells and give them life. Number of cells given life is based on 10% of the maps area.</p>
+				<p class="rulesText">The Clear button clears the map and resets the generation to 0.</p>
+			 	<a id="backToTopLink" class="rulesText"href="#top">Back to Top</A>
+		 	<h2>More Info:</h2>
+			 	<a class="rulesText" href="http://en.wikipedia.org/wiki/Conway's_Game_of_Life">Link to Game of Life Wiki</a>
+		</div>
+  </body>
+</html>
