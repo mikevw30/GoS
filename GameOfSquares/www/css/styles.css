@@ -6,7 +6,8 @@ body{
 }
 
 .mainMenu{	
-	width: 100%;
+	width: auto;
+  height: auto;
   margin-top: 44%;
   margin-left: 17%;
 	color: white;
