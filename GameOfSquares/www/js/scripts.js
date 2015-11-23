@@ -1,5 +1,5 @@
 var dimX = 15;
-var dimY = 18;
+var dimY = 15;
 var changeOfLiveCell = .5;
 var table;
 var cells;

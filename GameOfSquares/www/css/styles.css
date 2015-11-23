@@ -3,9 +3,25 @@ body{
 	background-color: black;
 }
 
+.mainMenu{	
+	width: 100%;
+  margin-top: 44%;
+  margin-left: 17%;
+	color: white;
+  float :left;
+}
+
+.mainMenuButtons{	
+	width: 100%;
+	margin-left: 20%;
+	margin-top: 10px;
+	color: white;
+  float :left;
+}
+
 #headerContainer{
 	height:5%;
-	width: 80%;
+	width: 100%;
 	margin: auto auto;
 	color: white;
 }
@@ -24,11 +40,11 @@ body{
 	width: 100%;
 }
 button{
-	width:10%;
+	width:23%;
 	float: left;
-	margin-left: 5px;
-	margin-right: 5px;
-	margin-top: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 10px;
 }
 #rulesAndHowToLink{
 	margin-left: 9px;
